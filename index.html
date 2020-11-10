@@ -1,0 +1,45 @@
+<html>
+    <head><title>Get Weather</title></head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    <body>
+        <div class="parent">
+            <h1 style="color: #FA2742;">Weather Data</h1>
+        <input id="answer1" type="text" placeholder="Enter the location" class="first" required>
+                 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <button id="search" class="search">Search</button>
+                <button id="alocate" class="auto">Find automatically</button>
+            
+                <div class="info">
+                <h4 style="color: black;" id="date"></h4>
+                <h4 style="color: black;" id="place"></h4>
+                </div>
+
+        <div class="data">
+            <div class="cell">
+                <img id="img" src="">
+            </div>
+            <div class="cell">
+                <img src="temp.svg">
+                <h4 id="temp"></h4>
+            </div>
+            <div class="cell">
+                <img src="feel.jpg">
+                <h4 id="feel"></h4>
+            </div>
+            <div class="cell">
+                <img src="humidity.png">
+                <h4 id="humidity"></h4>
+            </div>
+            <div class="cell">
+                <img src="pressure.jpg">
+                <h4 id="pressure"></h4>
+            </div>
+            <div class="cell">
+                <img src="wind.png">
+                <h4 id="wind"></h4>
+            </div>
+        </div>
+    </div>
+    <script src="api.js"></script>
+    </body>
+</html>
